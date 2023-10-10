@@ -15,6 +15,5 @@ python -m pip install -r requirements.txt
 - Adding application ID to Json
 ## Run the program
 ```
-start main.py
-start console.py
+python main.py
 ```
