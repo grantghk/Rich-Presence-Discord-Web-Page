@@ -1,8 +1,8 @@
 # Rich-Presence-Discord-Python
-Rich Presence Discord By Flask Python.
-Easy to use presence in discord with buttiful webpage. 
+- Rich Presence Discord By Flask Python.
+- Easy to use presence in discord with buttiful webpage. 
 # Deleloper
-Discord:GRANTGHK
+- Discord:GRANTGHK
 # How to use
 Install Extension
 ```
