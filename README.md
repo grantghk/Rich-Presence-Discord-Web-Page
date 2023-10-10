@@ -19,4 +19,4 @@ python -m pip install -r requirements.txt
 python main.py
 ```
 ## Web Page
-![plot](https://github.com/grantghk/Rich-Presence-Discord-Python/blob/3be788099ff62ace5fe1ffd2ed6cc0a4a8d2b1e0/Png/Web%20Page.png?raw=true)
+![plot](https://github.com/grantghk/Rich-Presence-Discord-Python/blob/main/png/Web%20page.png?raw=true)
