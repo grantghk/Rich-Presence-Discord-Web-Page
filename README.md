@@ -14,6 +14,7 @@ python -m pip install -r requirements.txt
 - While you're there copy the application ID.
 - Adding application ID to Json
 ## Run the program
+[Flask Url](http://127.0.0.1:5000)
 ```
 python main.py
 ```
