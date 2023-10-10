@@ -1,3 +1,0 @@
-flask==2.2.2
-pypresence==4.3.0
-datetime==4.4.2
