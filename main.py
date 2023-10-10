@@ -46,7 +46,7 @@ def libaryjs():
 def libarycss():
     return open("libary/style.css", "r").read()
 @app.route("/libary", methods=['GET', 'POST'])
-def libarycss():
+def libary():
     return "Nothing is here,This is folder."
 
 if __name__ == "__main__":
