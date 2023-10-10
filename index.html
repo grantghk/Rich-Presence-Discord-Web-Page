@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="libary/style.css">
+<script src="libary/script.js"></script>
+By:GRANTGHK
+<body onload="loads()">
+  <div>
+    <header>RPC Discord Control Panel</header>
+    <form method="post" action="/" onsubmit="Onsubmit()">
+        <br>
+        <header id="Name">Name:</header>
+        <input type="text" id="Names" name="Name" placeholder="Name"><br>
+        <input type="button" value="Set Name" name="Set name" onclick="changename();"/>
+        <br>
+        <header>Picture</header>
+        <img id="Picture" src="https://i.pinimg.com/originals/3b/14/78/3b1478f57dcda19644c76afa1083bb12.gif" width="200" ><br><!--You can change image url-->
+        <input type="text" id="Pictures" name="Picture" placeholder="Picture/Gif Url"><br>
+        <input type="button" value="Set Picture" name="Set picture" onclick="changeurl();"/>
+        <br>
+        <header>Button</header>
+        <input type="text" id="AddButtonname" name="Button Name" placeholder="Button Name">
+        <input type="text" id="AddButtonurl" name="Button Url" placeholder="Button Url(Full Url)">
+        <input type="button" value="Add" name="Addbutton" onclick="Addbuttons();"/><br>
+        <input type="checkbox" name="Button1Box" id="Button1Box" value="True">
+        <select name="Button1" id="Button1"><option value="Button1">Button1</option></select> 
+        <select name="Button2" id="Button2"><option value="Button2">Button2</option></select> 
+        <br>
+        <header>State</header>
+        <input type="text" id="Addlist" name="Task List" placeholder="Task List">
+        <input type="button" value="Add" name="Add1" onclick="addList();"/>
+        <br>
+        <select name="Task" id="Task"></select> 
+        <input type="button" value="Remove" name="Remove" id="Remove" onclick="remove()"/>
+        <br>
+        <input type="submit" value="Submit" name="submit"/>
+    </form>
+    </div>
+</body>

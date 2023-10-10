@@ -1,0 +1,71 @@
+header {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+input[type=text], select {
+    text-align: center;
+    padding: 10px 12.5px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 183, 255);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(0, 183, 255);
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: rgb(0, 183, 255);
+  }
+
+  input[type=button] {
+    background-color: rgb(0, 183, 255);
+    color: white;
+    padding: 10px 12.5px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  input[type=button]:hover {
+    background-color: rgb(0, 183, 255);
+  }
+  
+  div {
+    text-align: center;
+    border-radius: 10%;
+    border: 2px solid rgb(0, 183, 255);
+    background-color: #f2f2f2;
+    width: 25%;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url('https://www.pngkey.com/maxpic/u2q8e6a9u2u2e6u2/');/* Don't change this */
+  background: rgba(255, 255, 255, 0.3);
+  }
+  img {
+  border: 2px solid rgb(0, 183, 255);
+  border-radius: 10px;
+  }
+  body {
+    background-image: url('https://64.media.tumblr.com/fcbc5c9e0dbe6695615a163fbecc3ecf/85e0d19a925ab377-83/s540x810/52a25c304413bf9807cb4d5394327378a8ef124e.gifv'); /* You can change here */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
