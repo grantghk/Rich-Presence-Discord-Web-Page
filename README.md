@@ -7,7 +7,10 @@ Install Extension
 ```
 python -m pip install -r requirements.txt
 ```
-
+Using Git
+```
+git clone https://github.com/grantghk/Rich-Presence-Discord-Python.git
+```
 # Setting Up
 **Go to The following website and create an application(application ID)**
 - [Discord Developers](https://discord.com/developers) - Create application
