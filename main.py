@@ -23,14 +23,14 @@ def index():
         ##Update RPC
         try:
             if not (check1):
-                RPC.update(state=f"Status: {state}", details=f"Name: {name}", large_image=picture,start=4)
+                RPC.update(state=f"Status: {state}", details=f"Name: {name}", large_image=picture,start=13.5)
             elif (check1):
                 RPC.update(
                     state=f"Status: {state}",
                     details=f"Name: {name}",
                     large_image=picture,
                     buttons=[{"label": button1[0], "url": button1[1]}, {"label": button2[0], "url": button2[1]}],
-                    start=4
+                    start=13.5
                 )
         except Exception as e:
             print(f"Error updating presence: {e}")
