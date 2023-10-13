@@ -1,6 +1,6 @@
 # Rich-Presence-Discord-Web-Page
 - Rich Presence Discord By Flask Python.
-- Easy to use presence in discord with buttiful webpage. 
+- Easy to use presence in discord with beautiful webpage. 
 # Deleloper
 - Discord:GRANTGHK
 # How to use
